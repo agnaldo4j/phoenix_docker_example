@@ -4,7 +4,7 @@
 * [distillery](https://github.com/bitwalker/distillery)
 * [mix_docker](https://github.com/Recruitee/mix_docker)
 * [phoenix](http://phoenixframework.org/)
-* [umbrella projects](https://elixir-lang.org/getting-started/mix-otp/dependencies-and-umbrella-projects.html#umbrella-projects)
+* [umbrella projects](https://elixirschool.com/en/lessons/advanced/umbrella-projects/)
 * [docker](https://www.docker.com/)
 * [docker-compose](https://docs.docker.com/compose/)
 
