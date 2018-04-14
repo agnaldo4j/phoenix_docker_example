@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+      image: thot:release
+      #build:
+      #  context: .
+      #  dockerfile: Dockerfile.release
+      restart: always
+      command: foreground
+      ports:
+        - "4000:4000"

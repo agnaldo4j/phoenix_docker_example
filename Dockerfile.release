@@ -1,0 +1,10 @@
+FROM elixir:latest
+
+EXPOSE 4000
+ENV PORT=4000 HOST=localhost MIX_ENV=prod REPLACE_OS_VARS=true SHELL=/bin/sh
+
+ADD thot.tar.gz ./
+
+# the only change are these two lines
+COPY rel/rancher_boot.sh /opt/app/bin/rancher_boot.sh
+ENTRYPOINT ["/opt/app/bin/rancher_boot.sh"]
